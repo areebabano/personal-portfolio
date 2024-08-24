@@ -52,7 +52,7 @@ export default function ContactPage() {
         <Header />
         <h1 className="text-3xl font-bold mb-6">Contact Me</h1>
         <p className="text-lg mb-4">
-          I'd love to hear from you! Whether you have a question, a project idea, or just want to say hello, feel free to get in touch.
+          I&apos;d love to hear from you! Whether you have a question, a project idea, or just want to say hello, feel free to get in touch.
         </p>
 
         <div className="mb-8">

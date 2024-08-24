@@ -21,9 +21,9 @@ export default function Home() {
               A Software Developer with a passion for crafting innovative
               solutions. My journey in programming began a year ago, and it has
               been a life-changing adventure. Through dedication and
-              perseverance, I've achieved notable milestones and continue to
+              perseverance, I&apos;ve achieved notable milestones and continue to
               strive for excellence. Programming has not only challenged me but
-              also instilled a sense of purpose and hope. I'm excited to see
+              also instilled a sense of purpose and hope. I&apos;m excited to see
               where this journey takes me and how I can harness my skills to
               drive positive change.
             </p>
