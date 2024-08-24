@@ -121,7 +121,7 @@ export default function Projects() {
             linkedinLink="https://www.linkedin.com/posts/areeba-bano-9249752b7_typescript-webdevelopment-frontend-activity-7195135722880729088-9KeZ?utm_source=share&utm_medium=member_desktop"
           />
           <ProjectCard
-            imageSrc="/mybank.jpeg"
+            imageSrc="/myBank.jpeg"
             title="OOP MyBank"
             description="A banking application built with OOP principles."
             githubLink="https://github.com/areebabano/oop-myBank"
