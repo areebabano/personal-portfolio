@@ -4,6 +4,7 @@ import Footer from "./components/footer";
 import About from "./about/page";
 import Contact from "./contact/page";
 import Project from "./project/page";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -27,14 +28,17 @@ export default function Home() {
               where this journey takes me and how I can harness my skills to
               drive positive change.
             </p>
+            <Link href="https://milestone-1-2-static-resume-gamma.vercel.app/">
+            <button className="bg-[#b8860b] border-2 border-[#ffff00] hover:bg-[#ffffff1a] font-semibold text-white px-4 py-2 rounded-lg ml-6 mt-6"><i>Hire me</i></button>
+            </Link>
           </div>
           <div className="w-full md:w-1/3 flex justify-center md:justify-end mt-8 md:mt-20">
             <Image
               id="my-image"
               src="/my-image.jpg"
               alt="Areeba Bano, a software developer"
-              height={240}
-              width={240}
+              height={280}
+              width={280}
               className="object-cover mt-[-110px] md:mr-8 mb-15 rounded-full my-image"
             />
           </div>

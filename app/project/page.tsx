@@ -30,8 +30,24 @@ export default function Projects() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          <div className="perspective-1000">
-            <ProjectCard
+          {/* <div className="perspective-1000"> */}
+          <ProjectCard
+            imageSrc="/flower-shop.jpg"
+            title="Online Flower Shop"
+            description="An easy-to-use online flower shop application to browse, order, and deliver flowers for any occasion."
+            githubLink="https://github.com/areebabano/online-flower-shop"
+            vercelLink="https://online-flower-shop-areeba.vercel.app/"
+            linkedinLink="https://www.linkedin.com/posts/areeba-bano-9249752b7_nextjs-renderingmethods-webdevelopment-activity-7265075102340321280-U2Xr?utm_source=share&utm_medium=member_desktop"
+          />
+          <ProjectCard
+            imageSrc="/glamglow.png"
+            title="Glam Glow E-commerce Website"
+            description="An online store where customers can easily browse, shop, and order products from the comfort of their homes."
+            githubLink="https://github.com/areebabano/Glam-Glow"
+            vercelLink="https://glam-glow-swart.vercel.app/"
+            // linkedinLink=""
+          />
+           <ProjectCard
               imageSrc="/calculator.jpg"
               title="Simple Calculator"
               description="A basic calculator to perform arithmetic operations."
@@ -39,7 +55,6 @@ export default function Projects() {
               youtubeLink="https://www.youtube.com/watch?v=mjYZ0X9ljsc"
               linkedinLink="https://www.linkedin.com/posts/areeba-bano-9249752b7_typescript-webdevelopment-frontend-activity-7187059452502581248-pmXW?utm_source=share&utm_medium=member_desktop"
             />
-          </div>
           <ProjectCard
             imageSrc="/guessing.jpg"
             title="Number Guessing Game"
@@ -136,6 +151,7 @@ export default function Projects() {
             youtubeLink="https://youtu.be/-mujdaJF3a0"
             linkedinLink="https://www.linkedin.com/posts/areeba-bano-9249752b7_typescript-webdevelopment-frontend-activity-7217434492293017602-mU2w?utm_source=share&utm_medium=member_desktop"
           />
+          
         </div>
       </main>
 

@@ -4,12 +4,14 @@ import Image from "next/image";
 import { FaGithub, FaYoutube, FaLinkedin } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS styles
+import { RxVercelLogo } from "react-icons/rx";
 
 interface ProjectCardProps {
   imageSrc: string;
   title: string;
   description: string;
   githubLink?: string;
+  vercelLink?: string;
   youtubeLink?: string;
   linkedinLink?: string;
 }
@@ -19,6 +21,7 @@ export default function ProjectCard({
   title,
   description,
   githubLink,
+  vercelLink,
   youtubeLink,
   linkedinLink,
 }: ProjectCardProps) {
@@ -75,6 +78,16 @@ export default function ProjectCard({
                 className="text-white hover:text-gray-400"
               >
                 <FaGithub size={24} />
+              </a>
+            )}
+            {vercelLink && (
+              <a
+                href={vercelLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-gray-400"
+              >
+                <RxVercelLogo size={24}/>
               </a>
             )}
             {youtubeLink && (
